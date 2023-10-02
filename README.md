@@ -37,13 +37,13 @@ DB_PASSWORD=root
 
 **Fixing Log files permission:**
 
-![Screenshot from 2023-10-03 00-09-17.png](Screenshot_from_2023-10-03_00-09-17.png)
+![Screenshot from 2023-10-03 00-09-17.png](Screenshot_from_2023-10-03 00-09-17.png)
 
 Run: `sudo chmod o+w ./storage/ -R`
 
 **Fixing Forbidden error:**
 
-![Screenshot from 2023-10-02 23-56-56.png](Screenshot_from_2023-10-02_23-56-56.png)
+![Screenshot from 2023-10-02 23-56-56.png](Screenshot_from_2023-10-02 23-56-56.png)
 
 If you see Forbidden then add following .htaccess file to the root of the project
 
