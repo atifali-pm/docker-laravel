@@ -1,10 +1,10 @@
 # Docker setup on Local for Laravel
 
-[https://www.youtube.com/watch?v=V-MDfE1I6u0&ab_channel=AlimonPito](https://www.youtube.com/watch?v=V-MDfE1I6u0&ab_channel=AlimonPito)
+
 
 **Setting up Docker**
 
-- Clone these files[https://github.com/pitocms/laravel-docker/tree/main](https://github.com/pitocms/laravel-docker/tree/main) to local
+
 - Run:  *sudo docker-compose build*
 - Run: *sudo docker-compose up -d*
 - Makefile works like: 
