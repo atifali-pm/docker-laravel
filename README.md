@@ -35,8 +35,8 @@ DB_CONNECTION=mysql
 DB_HOST=mysql_db (DB container name from docker-compose.yml)
 DB_PORT=3306
 DB_DATABASE=laravel_docker (DB name from docker-compose.yml)
-DB_USERNAME=root
-DB_PASSWORD=root
+DB_USERNAME=
+DB_PASSWORD=
 ```
 
 **Fixing Log files permission:**
