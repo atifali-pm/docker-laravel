@@ -8,12 +8,16 @@
 - Run:  *sudo docker-compose build*
 - Run: *sudo docker-compose up -d*
 - Makefile works like: 
-*- sudo make setup
+
+
+```
+- sudo make setup
 - sudo make build
 - sudo make up
 - sudo make stop
 - sudo make composer-update
 - sudo make data*
+```
 
 **Installing Laravel**
 
@@ -47,6 +51,8 @@ Run: `sudo chmod o+w ./storage/ -R`
 
 If you see Forbidden then add following .htaccess file to the root of the project
 
+```
 RewriteEngine On
 RewriteCond %{REQUEST_URI} !^/public/
 RewriteRule ^(.*) /public/$1 [L,QSA]
+```
